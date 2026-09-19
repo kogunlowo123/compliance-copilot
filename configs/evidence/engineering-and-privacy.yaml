@@ -1,0 +1,29 @@
+evidence:
+  - id: EV-SDLC-001
+    type: config
+    title: Repository and pipeline settings
+    source: GitHub organisation export
+    collected_at: 2026-09-12T00:00:00Z
+    owner: engineering
+    facts:
+      change:
+        approval_required: true
+        emergency_pct: 4
+      sdlc:
+        code_review_required: true
+        sast_in_pipeline: true
+        dependency_scanning: false
+  - id: EV-PRIV-001
+    type: attestation
+    title: Privacy office attestation
+    source: Privacy officer
+    collected_at: 2026-08-01T00:00:00Z
+    owner: privacy
+    facts:
+      privacy:
+        dsar_process: true
+        dsar_avg_days: 18
+        ropa_exists: true
+        dpia_high_risk_completed: false
+        breach_procedure: true
+        breach_notify_hours: 72

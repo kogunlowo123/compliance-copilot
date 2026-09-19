@@ -1,0 +1,32 @@
+evidence:
+  - id: EV-CLOUD-001
+    type: config
+    title: Cloud configuration scan
+    source: AWS Config conformance pack
+    collected_at: 2026-09-10T06:30:00Z
+    owner: platform
+    facts:
+      data:
+        encrypted_at_rest_pct: 100
+        classification_scheme: true
+        retention_schedule: false
+      network:
+        tls_min_version: 1.2
+        plaintext_endpoints: 0
+        default_deny: true
+        public_admin_ports: 2
+      kms:
+        managed_keys: true
+        rotation_enabled: true
+      backup:
+        coverage_pct: 97
+        last_restore_test_days: 240
+      config:
+        baseline_defined: true
+        drift_pct: 8
+      logging:
+        centralized_pct: 98
+        retention_days: 400
+      monitoring:
+        alert_rules_defined: true
+        on_call_24x7: false
