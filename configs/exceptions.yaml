@@ -1,0 +1,11 @@
+exceptions:
+  - control: AC-05
+    reason: Just-in-time admin access is planned for Q1. Sessions are reviewed manually until then.
+    approved_by: CISO
+    approved_on: 2026-08-15
+    expires: 2026-12-31
+  - control: VM-02
+    reason: Second test deferred because of the platform migration.
+    approved_by: CISO
+    approved_on: 2026-02-01
+    expires: 2026-06-30

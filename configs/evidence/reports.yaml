@@ -1,0 +1,52 @@
+evidence:
+  - id: EV-PEN-2026
+    type: report
+    title: External penetration test
+    source: Third-party tester report
+    collected_at: 2026-03-10T00:00:00Z
+    owner: security-eng
+    facts:
+      pentest:
+        last_days: 192
+        critical_findings_open: 0
+  - id: EV-RISK-2026
+    type: report
+    title: Risk register review
+    source: GRC tool
+    collected_at: 2026-01-15T00:00:00Z
+    owner: ciso
+    facts:
+      risk:
+        register_exists: true
+        last_assessment_days: 500
+  - id: EV-IR-2026
+    type: report
+    title: Incident response exercise record
+    source: Exercise notes
+    collected_at: 2026-07-20T00:00:00Z
+    owner: security-lead
+    facts:
+      ir:
+        plan_current: true
+        tabletop_last_days: 410
+        post_incident_reviews_pct: 100
+  - id: EV-VEND-001
+    type: report
+    title: Vendor register
+    source: Procurement spreadsheet
+    collected_at: 2026-08-15T00:00:00Z
+    owner: procurement
+    facts:
+      vendors:
+        inventory_exists: true
+        critical_assessed_pct: 100
+        dpa_signed_pct: 92
+  - id: EV-ASSET-001
+    type: report
+    title: Asset inventory reconciliation
+    source: CMDB
+    collected_at: 2026-08-28T00:00:00Z
+    owner: it-ops
+    facts:
+      assets:
+        inventory_coverage_pct: 96

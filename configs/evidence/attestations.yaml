@@ -1,0 +1,44 @@
+evidence:
+  - id: EV-HR-001
+    type: attestation
+    title: HR onboarding attestation
+    source: HR director sign-off
+    collected_at: 2026-07-01T00:00:00Z
+    owner: hr
+    facts:
+      hr:
+        background_checks_pct: 100
+        confidentiality_agreements_pct: 100
+      gov:
+        security_owner_named: true
+        management_review_last_days: 200
+  - id: EV-BCDR-001
+    type: attestation
+    title: Disaster recovery test sign-off
+    source: Platform lead sign-off
+    collected_at: 2025-08-20T00:00:00Z
+    owner: platform
+    facts:
+      bcdr:
+        plan_current: true
+        rto_defined: true
+        test_last_days: 100
+  - id: EV-PHYS-001
+    type: attestation
+    title: Cloud provider physical security attestation
+    source: Provider audit report
+    collected_at: 2026-02-01T00:00:00Z
+    owner: platform
+    facts:
+      physical:
+        access_control: true
+  - id: EV-TRAIN-001
+    type: training
+    title: Security awareness training export
+    source: Training platform
+    collected_at: 2026-08-20T00:00:00Z
+    owner: hr
+    facts:
+      training:
+        completion_pct: 91
+        last_cycle_days: 300

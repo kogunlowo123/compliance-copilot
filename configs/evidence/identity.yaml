@@ -1,0 +1,20 @@
+# Synthetic evidence for a fictional company, Northwind Labs.
+evidence:
+  - id: EV-IAM-001
+    type: config
+    title: Identity provider export
+    source: Okta admin report
+    collected_at: 2026-09-01T09:00:00Z
+    owner: it-ops
+    facts:
+      iam:
+        mfa_admins_pct: 100
+        mfa_all_users_pct: 88
+        access_review_last_days: 45
+        role_based_access: true
+        offboarding_sla_hours: 48
+        orphaned_accounts: 3
+        password_min_length: 14
+        lockout_enabled: true
+        privileged_sessions_logged: false
+        standing_admin_count: 9
