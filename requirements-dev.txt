@@ -4,6 +4,6 @@ pip-audit>=2.7
 pytest>=8.0
 pytest-cov>=7.1.0
 ruff>=0.5
-types-PyYAML>=6.0
+types-PyYAML>=6.0.12.20260906
 build>=1.2
 twine>=5.0
