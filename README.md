@@ -1,5 +1,9 @@
 # Compliance Copilot
 
+![Banner](docs/banner.png)
+
+> If this project is useful, a star helps other engineers find it.
+
 Point it at your evidence and policies and it tells you where you stand against SOC 2, ISO 27001, NIST CSF,
 HIPAA, PCI DSS and GDPR at the same time. It tests each control against dated evidence, lists what is failing
 and what is missing, orders the fixes by how much they matter across frameworks, and answers questions about
