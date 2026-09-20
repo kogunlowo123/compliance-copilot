@@ -2,8 +2,6 @@
 
 ![Banner](docs/banner.png)
 
-> If this project is useful, a star helps other engineers find it.
-
 Point it at your evidence and policies and it tells you where you stand against SOC 2, ISO 27001, NIST CSF,
 HIPAA, PCI DSS and GDPR at the same time. It tests each control against dated evidence, lists what is failing
 and what is missing, orders the fixes by how much they matter across frameworks, and answers questions about
@@ -188,7 +186,7 @@ medium control that supports one framework and has a gap scores 4.
 
 ## Configuration
 
-Environment variables use the `COMPCOPILOT_` prefix, and `.env.example` documents each one. An optional
+Supported Python versions are 3.10 to 3.13. Environment variables use the `COMPCOPILOT_` prefix, and `.env.example` documents each one. An optional
 language model can write the executive summary. It receives only counts and readiness percentages, never
 control, evidence or policy text, and its output is discarded unless every number in it is in those facts.
 
