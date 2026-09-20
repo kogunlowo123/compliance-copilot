@@ -2,6 +2,8 @@
 
 ![Banner](docs/banner.png)
 
+**Built by [Citadel Cloud Management](https://www.linkedin.com/company/citadel-cloud-management/)** — follow on LinkedIn for more engineering work like this.
+
 Point it at your evidence and policies and it tells you where you stand against SOC 2, ISO 27001, NIST CSF,
 HIPAA, PCI DSS and GDPR at the same time. It tests each control against dated evidence, lists what is failing
 and what is missing, orders the fixes by how much they matter across frameworks, and answers questions about
