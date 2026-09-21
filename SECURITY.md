@@ -36,7 +36,7 @@ You can expect an acknowledgement within 3 business days and a triage decision w
 | Answering beyond the data | The copilot builds answers from the assessment only and cites what it used | `agents/copilot.py` |
 | Evidence tampering after assessment | Canonical SHA-256 per record and the `verify` command | `config.py`, `service.py` |
 | Secret leakage | API keys are `SecretStr`. Errors and logs are redacted | `config.py`, `logging_setup.py`, `cli.py` |
-| Vulnerable dependencies | `pip-audit`, Dependabot, CodeQL | `.github/` |
+| Vulnerable dependencies | `pip-audit`, CodeQL | `.github/` |
 
 ## Known limits
 
